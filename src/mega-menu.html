@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Parcel</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body class="bg-secondary-subtle">
+    <!-- Mega Menu -->
+    <nav class="navbar navbar-expand-xl fixed-top bg-white shadow py-3" aria-label="main navigation">
+        <div class="container-xl position-relative">
+            <a class="navbar-brand" href="index.html" aria-label="link to home page">
+                <svg version="1.1" id="Group_1412" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 73 58.2"
+                    xml:space="preserve" class="gv-logo-sizing">
+                    <g>
+                        <defs>
+                            <rect id="SVGID_1_" width="73" height="58.2" />
+                        </defs>
+                        <clipPath id="SVGID_00000034809231507807405840000001482537030916421028_">
+                            <use xlink:href="#SVGID_1_" />
+                        </clipPath>
+                        <g id="Group_1411">
+                            <g id="Group_1410">
+                                <g>
+                                    <defs>
+                                        <rect id="SVGID_00000033327239428486183270000017919058253981045133_" width="73"
+                                            height="58.2" />
+                                    </defs>
+                                    <clipPath id="SVGID_00000152953398977721862060000001834669043811766149_">
+                                        <use xlink:href="#SVGID_00000033327239428486183270000017919058253981045133_" />
+                                    </clipPath>
+                                    <g id="Group_1409">
+                                        <g id="Group_1399" class="gv-logo-st2">
+                                            <g id="Group_1398">
+                                                <g>
+                                                    <defs>
+                                                        <rect
+                                                            id="SVGID_00000178176827637294611230000014040660659676949180_"
+                                                            x="2.6" width="70.3" height="31.1" />
+                                                    </defs>
+                                                    <clipPath
+                                                        id="SVGID_00000044137498009395633530000012919708796188793781_">
+                                                        <use
+                                                            xlink:href="#SVGID_00000178176827637294611230000014040660659676949180_" />
+                                                    </clipPath>
+                                                    <g id="Group_1397">
+                                                        <path id="Path_1170" class="gv-logo-st4"
+                                                            d="M6.6,30.4C9.5,13.2,25.8,1.6,43,4.5C56.1,6.7,66.4,16.9,68.8,30" />
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group_1402" class="gv-logo-st5">
+                                            <g id="Group_1401">
+                                                <g>
+                                                    <defs>
+                                                        <rect
+                                                            id="SVGID_00000078039045425216033390000008847564226769465016_"
+                                                            x="11.4" y="8.2" width="52.4" height="22.2" />
+                                                    </defs>
+                                                    <clipPath
+                                                        id="SVGID_00000018945664777346539720000012139350636530925746_">
+                                                        <use
+                                                            xlink:href="#SVGID_00000078039045425216033390000008847564226769465016_" />
+                                                    </clipPath>
+                                                    <g id="Group_1400">
+                                                        <path id="Path_1171" class="gv-logo-st4"
+                                                            d="M15.3,29.3c3.5-12.4,16.4-19.6,28.8-16.1c7.4,2.1,13.3,7.7,15.8,15" />
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <path id="Path_1172" class="gv-logo-st7"
+                                            d="M24,29.3c3.5-7.6,12.5-10.9,20.1-7.4c4.1,1.9,7.1,5.5,8.3,9.9" />
+                                        <path id="Path_1173" class="gv-logo-st4"
+                                            d="M24,29.3c3.5-7.6,12.5-10.9,20.1-7.4c4.1,1.9,7.1,5.5,8.3,9.9" />
+                                        <path id="Path_1174" class="gv-logo-st7" d="M11.1,56.9c-5.4,0-9.8-4.4-9.8-9.8c0-1.8,1.4-3.2,3.2-3.2s3.2,1.4,3.2,3.2c0,0,0,0,0,0
+                    c0,1.9,1.5,3.4,3.4,3.4s3.4-1.5,3.4-3.4v-2.7c-5.1,1.9-10.7-0.7-12.6-5.7S2.6,27.9,7.6,26c2.5-0.9,5.3-0.8,7.8,0.4
+                    c1.2-1.3,3.2-1.3,4.5-0.1c0.6,0.6,1,1.4,1,2.2c3.7-3.9,9.9-4.1,13.9-0.4c0.7,0.6,1.3,1.4,1.7,2.2c2.7-4.7,8.7-6.3,13.4-3.5
+                    c1.5,0.9,2.7,2.1,3.5,3.5c2.4-4.1,7.4-5.9,11.9-4.2v-2.7c0-1.8,1.4-3.2,3.2-3.2c1.8,0,3.2,1.4,3.2,3.2v18.5
+                    c0,1.8-1.4,3.2-3.2,3.2c-0.9,0-1.7-0.4-2.3-1c-4.6,2.3-10.2,0.6-12.8-3.9c-2.7,4.7-8.7,6.3-13.4,3.5c-1.5-0.9-2.7-2.1-3.5-3.5
+                    c-2.7,4.7-8.7,6.3-13.4,3.5c-0.8-0.5-1.5-1.1-2.2-1.7v5.2C20.9,52.5,16.5,56.9,11.1,56.9 M61.9,31.7c-1.9,0-3.4,1.5-3.4,3.4
+                    c0,1.9,1.5,3.4,3.4,3.4c1.9,0,3.4-1.5,3.4-3.4C65.3,33.3,63.8,31.7,61.9,31.7 M45,31.7c-1.9,0-3.4,1.5-3.4,3.4
+                    c0,1.9,1.5,3.4,3.4,3.4c1.9,0,3.4-1.5,3.4-3.4l0,0C48.4,33.3,46.9,31.7,45,31.7 M28,31.7c-1.9,0-3.4,1.5-3.4,3.4
+                    c0,1.9,1.5,3.4,3.4,3.4c1.9,0,3.4-1.5,3.4-3.4C31.5,33.3,29.9,31.7,28,31.7 M11.1,31.7c-1.9,0-3.4,1.5-3.4,3.4
+                    c0,1.9,1.5,3.4,3.4,3.4s3.4-1.5,3.4-3.4l0,0C14.5,33.3,13,31.7,11.1,31.7" />
+                                        <path id="Path_1175" class="gv-logo-st8" d="M68.5,21.4c1.1,0,1.9,0.9,1.9,1.9v18.5c0,1.1-0.9,1.9-1.9,1.9c-0.9,0-1.7-0.6-1.9-1.5
+                    c-3.9,2.6-9.2,1.6-11.8-2.3c-0.8-1.1-1.2-2.4-1.4-3.8c-0.6,4.7-4.8,8-9.5,7.5c-3.9-0.5-7-3.5-7.5-7.5c-0.6,4.7-4.8,8-9.5,7.5
+                    c-3.7-0.4-6.8-3.3-7.4-7v10.5c0,4.7-3.8,8.5-8.5,8.5s-8.5-3.8-8.5-8.5c0-1.1,0.9-1.9,1.9-1.9c1.1,0,1.9,0.9,1.9,1.9
+                    c0,0,0,0,0,0c0,2.6,2.1,4.7,4.7,4.7s4.7-2.1,4.7-4.7v-4.8c-3.9,2.6-9.2,1.5-11.8-2.4s-1.5-9.2,2.4-11.8c2.9-1.9,6.6-1.9,9.5,0
+                    c0.2-1,1.3-1.7,2.3-1.4c0.9,0.2,1.5,1,1.5,1.9v5.2c0.8-4.6,5.2-7.8,9.9-7c3.7,0.6,6.6,3.6,7,7.4c0.6-4.7,4.8-8,9.5-7.5
+                    c3.9,0.5,7,3.5,7.5,7.5c0.6-4.7,4.8-8,9.5-7.5c1.3,0.2,2.6,0.6,3.7,1.4v-4.8C66.6,22.2,67.5,21.3,68.5,21.4 M61.9,39.9
+                    c2.6,0,4.7-2.1,4.7-4.7c0-2.6-2.1-4.7-4.7-4.7c-2.6,0-4.7,2.1-4.7,4.7c0,0,0,0,0,0C57.2,37.8,59.3,39.9,61.9,39.9 M45,39.9
+                    c2.6,0,4.7-2.1,4.7-4.7s-2.1-4.7-4.7-4.7s-4.7,2.1-4.7,4.7C40.2,37.8,42.4,39.9,45,39.9 M28,39.9c2.6,0,4.7-2.1,4.7-4.7
+                    s-2.1-4.7-4.7-4.7c-2.6,0-4.7,2.1-4.7,4.7C23.3,37.8,25.4,39.9,28,39.9 M11.1,39.9c2.6,0,4.7-2.1,4.7-4.7s-2.1-4.7-4.7-4.7
+                    s-4.7,2.1-4.7,4.7C6.4,37.8,8.5,39.9,11.1,39.9 M68.5,18.8c-2.5,0-4.5,2-4.5,4.5v1c-4-0.8-8,0.6-10.6,3.7
+                    c-3.9-4.7-10.9-5.3-15.6-1.3c-0.5,0.4-0.9,0.9-1.3,1.3c-3.7-4.4-10.3-5.2-15-1.8c-1.3-2.1-4-2.7-6.1-1.5
+                    c-0.1,0-0.1,0.1-0.2,0.1c-5.7-2.3-12.1,0.5-14.4,6.2c-1.6,4-0.7,8.6,2.3,11.8C1.2,43.4,0,45.1,0,47.1c0,6.1,5,11.1,11.1,11.1
+                    c6.1,0,11.1-5,11.1-11.1v-2.5c4.7,2.9,10.8,1.9,14.3-2.3c3.9,4.7,10.9,5.3,15.6,1.3c0.5-0.4,0.9-0.9,1.3-1.3
+                    c3.1,3.6,8.1,4.9,12.6,3.2c2,1.4,4.8,0.9,6.2-1.1c0.5-0.7,0.8-1.6,0.8-2.5V23.3C73,20.8,71,18.8,68.5,18.8 M61.9,37.3
+                    c-1.2,0-2.2-1-2.2-2.2c0-1.2,1-2.2,2.2-2.2c1.2,0,2.2,1,2.2,2.2C64.1,36.4,63.1,37.3,61.9,37.3 M45,37.3c-1.2,0-2.2-1-2.2-2.2
+                    s1-2.2,2.2-2.2s2.2,1,2.2,2.2c0,0,0,0,0,0C47.1,36.4,46.2,37.3,45,37.3 M28,37.3c-1.2,0-2.2-1-2.2-2.2c0-1.2,1-2.2,2.2-2.2
+                    c1.2,0,2.2,1,2.2,2.2C30.2,36.4,29.2,37.3,28,37.3 M11.1,37.3c-1.2,0-2.2-1-2.2-2.2c0-1.2,1-2.2,2.2-2.2s2.2,1,2.2,2.2l0,0
+                    C13.3,36.4,12.3,37.3,11.1,37.3 M11.1,49.2c-1.2,0-2.2-1-2.2-2.2c0-0.4,0-0.7-0.1-1.1c1.5,0.3,3,0.3,4.5,0v1
+                    C13.3,48.3,12.3,49.2,11.1,49.2" />
+                                        <g id="Group_1408">
+                                            <g id="Group_1407">
+                                                <g>
+                                                    <defs>
+                                                        <rect
+                                                            id="SVGID_00000070114427680447812420000011307253634585081525_"
+                                                            x="24.6" y="45.4" width="39.6" height="10.9" />
+                                                    </defs>
+                                                    <clipPath
+                                                        id="SVGID_00000072262621741943929550000000587815549783993252_">
+                                                        <use
+                                                            xlink:href="#SVGID_00000070114427680447812420000011307253634585081525_" />
+                                                    </clipPath>
+                                                    <g id="Group_1406">
+                                                        <g id="Group_1405">
+                                                            <g id="Group_1404">
+                                                                <g>
+                                                                    <defs>
+                                                                        <rect
+                                                                            id="SVGID_00000098915972816044002770000002665233383315434175_"
+                                                                            x="24.6" y="45.4" width="39.6"
+                                                                            height="10.9" />
+                                                                    </defs>
+                                                                    <clipPath
+                                                                        id="SVGID_00000170265559115520136710000002970935300340775857_">
+                                                                        <use
+                                                                            xlink:href="#SVGID_00000098915972816044002770000002665233383315434175_" />
+                                                                    </clipPath>
+                                                                    <g id="Group_1403">
+                                                                        <text transform="matrix(1 0 0 1 24.646 51.758)"
+                                                                            class="gv-logo-st12 gv-logo-st13 gv-logo-st14">vibrations</text>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span id="hamburger">
+                    <span id="hamContainer" class="">
+
+                        <span class="squish"></span>
+                        <span class="squish"></span>
+                        <span class="squish"></span>
+
+                    </span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-0 me-xl-2 mb-2 mb-xl-0 mt-3 mt-xl-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                            aria-expanded="false" aria-controls="shopList" href="#shopList">Shop</a>
+                        <ul id="shopList" class="dropdown-menu-gv test-class collapse">
+
+                            <li><a class="dropdown-item fw-semibold" href="#">Shop Home</a>
+                            </li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Shop
+                                    Category Left</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Shop
+                                    Category Right</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Product Single</a>
+                            </li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Bag</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Checkout</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Shipping</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Payment</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Payment Success</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                            aria-expanded="false" aria-controls="pagesList" href="#pagesList">Pages</a>
+                        <ul id="pagesList" class="dropdown-menu-gv collapse">
+                            <li><a class="dropdown-item fw-semibold" href="#">Agency</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">SaaS</a>
+                            </li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Newsletter</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Newsletter
+                                    Category</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Newsletter
+                                    Single</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">About</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Contact</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Error 404</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                            aria-expanded="false" aria-controls="accountList" href="#accountList">Account</a>
+                        <ul id="accountList" class="dropdown-menu-gv collapse">
+                            <li><a class="dropdown-item fw-semibold" href="#">Orders</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Settings</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Address</a></li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Payment Method</a>
+                            </li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Change Password</a>
+                            </li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Sign-In / Sign-Up</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                            aria-expanded="false" aria-controls="megaMenu" href="#megaMenu">Mega
+                            Menu</a>
+                        <div id="megaMenu" class="dropdown-menu-gv collapse">
+                            <div class="row">
+                                <div class="col-12 col-xl-3 order-4 order-xl-1">
+                                    <!-- Mega Menu Ad -->
+                                    <div id="mega-menu-ad"
+                                        class="d-none d-xl-flex align-items-center justify-content-center position-relative">
+                                        <button class="button-sale btn btn-brand-primary-reverse btn-xl rounded-pill"
+                                            type="button">Shop
+                                            Deals</button>
+                                    </div>
+
+                                </div>
+                                <div class="col-12 col-xl-3 order-1 order-xl-2">
+                                    <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                                        aria-expanded="false" aria-controls="megaColOne" href="#megaColOne">
+                                        Shop
+                                    </a>
+                                    <div id="megaColOne" class="dropdown-menu-gv collapse">
+                                        <div class="d-flex flex-column">
+                                            <a class="dropdown-item fw-semibold" href="#">Shop Home</a>
+
+                                            <a class="dropdown-item fw-semibold" href="#">Shop
+                                                Category Left</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Shop
+                                                Category Right</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Product
+                                                Single</a>
+
+                                            <a class="dropdown-item fw-semibold" href="#">Bag</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Checkout</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Shipping</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Payment</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Payment
+                                                Success</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-3 order-2 order-xl-3">
+                                    <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                                        aria-expanded="false" aria-controls="megaColTwo" href="#megaColTwo">
+                                        Pages
+                                    </a>
+                                    <div id="megaColTwo" class="dropdown-menu-gv collapse">
+                                        <div class="d-flex flex-column">
+                                            <a class="dropdown-item fw-semibold" href="#">Agency</a>
+                                            <a class="dropdown-item fw-semibold" href="#">SaaS</a>
+
+                                            <a class="dropdown-item fw-semibold" href="#">Newsletter</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Newsletter
+                                                Category</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Newsletter
+                                                Single</a>
+                                            <a class="dropdown-item fw-semibold" href="#">About</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Contact</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Error 404</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-3 order-3 order-xl-4">
+                                    <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                                        aria-expanded="false" aria-controls="megaColThree" href="#megaColThree">
+
+                                        Account
+                                    </a>
+                                    <div id="megaColThree" class="dropdown-menu-gv collapse">
+                                        <div class="d-flex flex-column">
+                                            <a class="dropdown-item fw-semibold" href="#">Orders</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Settings</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Address</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Payment
+                                                Method</a>
+
+                                            <a class="dropdown-item fw-semibold" href="#">Change
+                                                Password</a>
+                                            <a class="dropdown-item fw-semibold" href="#">Sign-In /
+                                                Sign-Up</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
+                            aria-expanded="false" aria-controls="docList" href="#docList">Documentation</a>
+                        <ul id="docList" class="dropdown-menu-gv collapse">
+                            <li><a class="dropdown-item fw-semibold" href="#">Usage</a>
+                            </li>
+                            <li><a class="dropdown-item fw-semibold" href="#">Theme
+                                    Basics</a></li>
+                            <li><a href="#" class="dropdown-item fw-semibold">Components</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto me-0 me-xl-3 mb-2 mb-xl-0">
+                    <!-- Search -->
+                    <li class="nav-item">
+                        <button type="button" class="nav-link px-2 d-none d-xl-inline-block"
+                            onclick="toggleShopMenuItems(event, searchBar)">
+                            <i data-feather="search" class="stroke-w-1"></i>
+                            <span class="visually-hidden">open search bar</span>
+                        </button>
+                        <form class="d-flex align-items-center d-inline-block d-xl-none pb-3" role="search">
+                            <input
+                                class="form-control rounded-pill border border-brand-light-gray bg-brand-x-light-gray"
+                                type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-brand-primary rounded-circle d-flex align-items-center"
+                                type="submit">
+                                <i data-feather="search"></i>
+                                <span class="visually-hidden">search</span>
+                            </button>
+                        </form>
+                    </li>
+                    <!-- Wish List -->
+                    <li class="nav-item position-relative w-fit-content">
+                        <div id="wish-list" class="d-none">
+                            <button type="button" class="btn" onclick="toggleShopMenuItems(event, wishList)"
+                                aria-label="Close">
+                                <i data-feather="x" class="stroke-w-1"></i>
+                            </button>
+
+                            <h6 class="p-2 border-bottom border-bottom-1 border-brand-mid-gray">Wish List</h6>
+
+                            <div class="d-flex my-3">
+                                <div class="w-25 me-3">
+                                    <img src="./img/shop/yoga-pants-6.jpg" class="card-img-top rounded-1"
+                                        alt="yoga pants">
+                                </div>
+                                <div class="w-75">
+                                    <p class="fw-bold">Santosha</p>
+                                    <p class="small m-0">Charcoal | Medium</p>
+                                    <p class="small m-0">PRANAYAMA YOGA PANTS &ndash; WOMEN’S</p>
+                                    <p class="small m-0 fw-semibold">$59.99 <span
+                                            class="text-decoration-line-through fw-normal">$89.99</span></p>
+
+                                    <p class="small m-0 d-inline-block"><a href="#">Details</a></p>
+
+                                    &nbsp;|&nbsp;
+
+                                    <p class="small m-0 d-inline-block"><a href="#">Add to Cart</a></p>
+                                    <i data-feather="shopping-bag" class="stroke-w-1 feather-icon-18"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-link px-2" onclick="toggleShopMenuItems(event, wishList)">
+                            <span
+                                class="position-absolute top-0 end-0 badge rounded-circle bg-brand-primary fw-normal text-10">
+                                5
+                                <span class="visually-hidden">shopping bag items</span>
+                            </span>
+                            <i data-feather="heart" class="stroke-w-1"></i>
+                        </a>
+                    </li>
+                    <!-- Account -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2" aria-label="link to sign in">
+                            <i data-feather="user" class="stroke-w-1"></i>
+                        </a>
+                    </li>
+                    <!-- Cart Preview -->
+                    <li class="nav-item position-relative w-fit-content">
+                        <div id="bag-preview" class="d-none">
+                            <button type="button" class="btn" onclick="toggleShopMenuItems(event, bagPreview)"
+                                aria-label="Close">
+                                <i data-feather="x" class="stroke-w-1"></i>
+                            </button>
+
+                            <h6 class="p-2 border-bottom border-bottom-1 border-brand-mid-gray">Your Bag</h6>
+
+                            <div class="d-flex my-3">
+                                <div class="w-25 me-3">
+                                    <img src="./img/shop/yoga-pants-6.jpg" class="card-img-top rounded-1"
+                                        alt="yoga pants">
+                                </div>
+                                <div class="w-75">
+                                    <p class="fw-bold">Santosha</p>
+                                    <p class="small m-0">Charcoal | Medium</p>
+                                    <p class="small m-0">PRANAYAMA YOGA PANTS &ndash; WOMEN’S</p>
+                                    <p class="small m-0 fw-semibold">1 <span><i data-feather="x"
+                                                class="feather-icon-12"></i></span> $59.99 <span
+                                            class="text-decoration-line-through fw-normal">$89.99</span></p>
+                                    <a href="">
+                                        <p class="small m-0 d-inline-block">Details</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="w-100 text-center pt-3 my-3 border-top border-top-1 border-brand-mid-gray">
+                                <p class="fw-bold m-0">Total: $59.99</p>
+                                <button type="submit"
+                                    class="shadow btn btn-brand-primary rounded-pill my-3">Order</button>
+                                <p class="small m-0">Your shipping is <span class="fw-semibold">free</span></p>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-link px-2" onclick="toggleShopMenuItems(event, bagPreview)">
+                            <span
+                                class="position-absolute top-0 end-0 badge rounded-circle bg-brand-primary fw-normal text-10">
+                                3
+                                <span class="visually-hidden">shopping bag items</span>
+                            </span>
+                            <i data-feather="shopping-bag" class="stroke-w-1"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Search E-commerce-->
+        <div id="search-ecommerce" class="d-none">
+            <button type="button" class="btn" onclick="toggleShopMenuItems(event, searchBar)" aria-label="Close">
+                <i data-feather="x" class="stroke-w-1"></i>
+            </button>
+            <form class="d-flex align-items-center" role="search">
+                <input class="form-control rounded-pill border border-brand-light-gray" type="search"
+                    placeholder="Search" aria-label="Search">
+                <button class="btn btn-brand-primary rounded-circle d-flex align-items-center" type="submit">
+                    <i data-feather="search"></i>
+                    <span class="visually-hidden">search</span>
+                </button>
+            </form>
+        </div>
+
+
+    </nav>
+
+</body>
+
+</html>
