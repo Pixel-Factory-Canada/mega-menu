@@ -31,7 +31,7 @@ body {
     overflow: hidden;
     &:hover {
         .dropdown-menu, .dropdown-menu-gv {
-            @include media-breakpoint-up(xl) {
+            @include media-breakpoint-up(md) {
                 display: block;
                 animation: dropdown 150ms ease-in-out forwards;
 
@@ -39,7 +39,7 @@ body {
 
         }
     }
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(md) {
         overflow: initial;
     }
 }
@@ -63,7 +63,7 @@ body {
     width: auto;
     padding: 0.5rem 3rem;
 
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(md) {
         position: absolute;
         top: 40px;
         width: 100%;
@@ -87,7 +87,7 @@ body {
 
             &::after {
 
-                   @include media-breakpoint-up(xl) {
+                   @include media-breakpoint-up(md) {
                     display: none;
 
                 }

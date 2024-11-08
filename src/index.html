@@ -1,157 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Parcel</title>
-    <link rel="stylesheet" href="scss/styles.scss">
+    <link rel="stylesheet" href="scss/styles.scss" />
     <script type="module" src="js/main.js"></script>
-</head>
+  </head>
 
-<body class="bg-secondary-subtle">
-
+  <body class="bg-secondary-subtle">
     <!-- Mega Menu -->
-    <nav class="navbar navbar-expand-xl fixed-top bg-white shadow py-3" aria-label="main navigation">
-        <div class="container-xl position-relative">
-            <a class="navbar-brand" href="#" aria-label="link to home page">
-                Logo
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                            aria-expanded="false" aria-controls="listItem1" href="#listItem1">Links 1</a>
-                        <ul id="listItem1" class="dropdown-menu test-class collapse">
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 1</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 2</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                            </li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 4</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 5</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 6</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 7</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                            aria-expanded="false" aria-controls="listItem2" href="#listItem2">Links 2</a>
-                        <ul id="listItem2" class="dropdown-menu collapse">
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 1</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 2</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                            </li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 4</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 5</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 6</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 7</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                            aria-expanded="false" aria-controls="listItem3" href="#listItem3">Links 3</a>
-                        <ul id="listItem3" class="dropdown-menu collapse">
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 1</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 2</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                            </li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 4</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 5</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 6</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 7</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown position-static">
-                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                            aria-expanded="false" aria-controls="megaMenu" href="#megaMenu">Mega
-                            Menu</a>
-                        <div id="megaMenu" class="dropdown-menu collapse shadow-lg">
-                            <div class="row">
-                                <div class="col-12 col-xl-3 order-4 order-xl-1">
-                                    <!-- Mega Menu Ad -->
-                                    <div id="mega-menu-ad"
-                                        class="d-none d-xl-flex align-items-center justify-content-center position-relative">
-                                        <button class="button-sale btn btn-brand-primary-reverse btn-xl rounded-pill"
-                                            type="button">Another Link</button>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-3 order-1 order-xl-2">
-                                    <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                                        aria-expanded="false" aria-controls="megaColOne" href="#megaColOne">
-                                        Links 1
-                                    </a>
-                                    <div id="megaColOne" class="dropdown-menu collapse">
-                                        <div class="d-flex flex-column">
-                                            <a class="dropdown-item fw-semibold" href="#">Link 1</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 2</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 4</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 5</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 6</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 7</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-3 order-2 order-xl-3">
-                                    <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                                        aria-expanded="false" aria-controls="megaColTwo" href="#megaColTwo">
-                                        Links 2
-                                    </a>
-                                    <div id="megaColTwo" class="dropdown-menu collapse">
-                                        <div class="d-flex flex-column">
-                                            <a class="dropdown-item fw-semibold" href="#">Link 1</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 2</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 4</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 5</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 6</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 7</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-3 order-3 order-xl-4">
-                                    <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                                        aria-expanded="false" aria-controls="megaColThree" href="#megaColThree">
-                                        Links 3
-                                    </a>
-                                    <div id="megaColThree" class="dropdown-menu collapse">
-                                        <div class="d-flex flex-column">
-                                            <a class="dropdown-item fw-semibold" href="#">Link 1</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 2</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 4</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 5</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 6</a>
-                                            <a class="dropdown-item fw-semibold" href="#">Link 7</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link good-vibes-dropdown-toggle collapsed" data-bs-toggle="collapse"
-                            aria-expanded="false" aria-controls="listItem4" href="#listItem4">Links 4</a>
-                        <ul id="listItem4" class="dropdown-menu collapse">
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 1</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 2</a></li>
-                            <li><a class="dropdown-item fw-semibold" href="#">Link 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-white shadow py-3"
+      aria-label="main navigation"
+    >
+      <div class="container-xl position-relative">
+        <a class="navbar-brand" href="#" aria-label="link to home page">
+          Logo
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link good-vibes-dropdown-toggle collapsed"
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls="listItem1"
+                href="#listItem1"
+                >Links 1</a
+              >
+              <ul id="listItem1" class="dropdown-menu test-class collapse">
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 5</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 6</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 7</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link good-vibes-dropdown-toggle collapsed"
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls="listItem2"
+                href="#listItem2"
+                >Links 2</a
+              >
+              <ul id="listItem2" class="dropdown-menu collapse">
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 5</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 6</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 7</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link good-vibes-dropdown-toggle collapsed"
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls="listItem3"
+                href="#listItem3"
+                >Links 3</a
+              >
+              <ul id="listItem3" class="dropdown-menu collapse">
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 5</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 6</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 7</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a
+                class="nav-link good-vibes-dropdown-toggle collapsed"
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls="megaMenu"
+                href="#megaMenu"
+                >Mega Menu</a
+              >
+              <div id="megaMenu" class="dropdown-menu collapse shadow-lg">
+                <div class="row">
+                  <div class="col-12 col-md-3 order-4 order-md-1">
+                    <!-- Mega Menu Ad -->
+                    <div
+                      id="mega-menu-ad"
+                      class="d-none d-md-flex align-items-center justify-content-center position-relative"
+                    >
+                      <button
+                        class="button-sale btn btn-brand-primary-reverse btn-md rounded-pill"
+                        type="button"
+                      >
+                        Another Link
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 order-1 order-md-2">
+                    <a
+                      class="nav-link good-vibes-dropdown-toggle collapsed"
+                      data-bs-toggle="collapse"
+                      aria-expanded="false"
+                      aria-controls="megaColOne"
+                      href="#megaColOne"
+                    >
+                      Links 1
+                    </a>
+                    <div id="megaColOne" class="dropdown-menu collapse">
+                      <div class="d-flex flex-column">
+                        <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 4</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 5</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 6</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 7</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 order-2 order-md-3">
+                    <a
+                      class="nav-link good-vibes-dropdown-toggle collapsed"
+                      data-bs-toggle="collapse"
+                      aria-expanded="false"
+                      aria-controls="megaColTwo"
+                      href="#megaColTwo"
+                    >
+                      Links 2
+                    </a>
+                    <div id="megaColTwo" class="dropdown-menu collapse">
+                      <div class="d-flex flex-column">
+                        <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 4</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 5</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 6</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 7</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 order-3 order-md-4">
+                    <a
+                      class="nav-link good-vibes-dropdown-toggle collapsed"
+                      data-bs-toggle="collapse"
+                      aria-expanded="false"
+                      aria-controls="megaColThree"
+                      href="#megaColThree"
+                    >
+                      Links 3
+                    </a>
+                    <div id="megaColThree" class="dropdown-menu collapse">
+                      <div class="d-flex flex-column">
+                        <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 4</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 5</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 6</a>
+                        <a class="dropdown-item fw-semibold" href="#">Link 7</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link good-vibes-dropdown-toggle collapsed"
+                data-bs-toggle="collapse"
+                aria-expanded="false"
+                aria-controls="listItem4"
+                href="#listItem4"
+                >Links 4</a
+              >
+              <ul id="listItem4" class="dropdown-menu collapse">
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Link 3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-
-</body>
-
+  </body>
 </html>
